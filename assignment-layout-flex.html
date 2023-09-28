@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout flex</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            
+        }
+       
+        header {
+            height: 100px;
+            background-color: yellow;
+            
+            margin-bottom: 10px;
+            display: flex;
+        }
+        nav {
+            height: 80px;
+            background-color: green;
+            margin-bottom:10px;
+        }
+
+        footer {
+            height: 80px;
+            background-color: olive;
+
+        }
+        .sec{
+            display: flex;
+            flex-direction: row;
+        }
+
+        main {
+            background-color: navy;
+            width: 950px;
+            height: 450px;
+            margin-bottom: 10px;
+            padding:10px;
+            
+        }
+        aside{
+            width:353px;
+            height: 470px;
+            background-color: grey;
+            display: flex;
+            margin-left:10px;
+        }
+        main section{
+            background-color: grey;
+            height:390px;
+            margin:10px;
+            border:1px solid transparent;
+            margin-top:50px;
+            
+        }
+        section header{
+            height:60px;
+            background-color: darkorange;
+            margin:10px;
+            margin-top: 20px;
+            
+        }
+        section article {
+
+            background-color: pink;
+            height:85px;
+            margin:10px;
+        }
+        aside header{
+            height: 100px;
+            margin:20px;
+            margin-top:50px;
+            flex:1;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <header></header>
+    <nav></nav>
+    <div class="sec">
+        <main>
+            <section>
+                
+                <header></header>
+                <article class="box"></article>
+                <article class="box"></article>
+                <article class="box"></article>
+            </section>
+            
+        </main>
+        <aside>
+            <header></header>
+        </aside>
+    </div>
+        <footer></footer>
+    
+</body>
+
+</html>
