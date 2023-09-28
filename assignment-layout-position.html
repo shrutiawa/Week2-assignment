@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header {
+            height: 100px;
+            background-color: yellow;
+            width: 1330px;
+            margin-bottom:10px;
+        }
+        nav {
+            height: 100px;
+            background-color: green;
+            width: 1330px;
+            margin-bottom:10px;
+        }
+        footer {
+            height: 80px;
+            background-color: olive;
+            width: 1330px;
+            margin-top: 10px;
+
+        }
+
+        main {
+            background-color: navy;
+            width: 900px;
+            height: 450px;
+            position: relative;
+            
+        }
+        main section{
+            background-color: grey;
+            width: 880px;
+            height:430px;
+            position: absolute;
+            left:10px;
+            top:10px;
+            
+
+        }
+        section header{
+            width:860px;
+            height:50px;
+            background-color: darkorange;
+            position: absolute;
+            left:10px;
+            top:50px;
+            
+        }
+
+        article:first-of-type{
+            
+            background-color: pink;
+            width: 860px;
+            height: 80px;
+            position: absolute;
+            top: 120px;
+            left:10px;
+            
+            
+        }
+        
+        article:nth-child(3){
+            
+            background-color: pink;
+            width: 860px;
+            height: 80px;
+            position: absolute;
+            top: 220px;
+            left:10px;
+            
+            
+        }
+        article:nth-child(4){
+            
+            background-color: pink;
+            width: 860px;
+            height: 80px;
+            position: absolute;
+            top: 320px;
+            left:10px;
+            
+            
+        }
+        aside{
+            width:417px;
+            height: 450px;
+            background-color: grey;
+            position: absolute;
+            left:920px;
+            top:228px
+        }
+        aside header{
+            width:380px;
+            height: 100px;
+            position: absolute;
+            left:20px;
+            top:50px;
+        }
+
+        /* article:first-child {
+            background-color: red;
+            top: 0px;
+            left:10px;
+        } */
+
+        /* article:nth-child(2) {
+            background-color: yellow;
+            top: 1700px;
+            left:10px;
+            
+        } */
+        /* article:nth-child(3) {
+            background-color: blue;
+            top: 0px;
+            left:670px;
+            
+        }
+        article:nth-child(4) {
+            background-color: green;
+            top: 0px;
+            left:1000px;
+        } */
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <section>
+            <header></header>
+            <article class="box"></article>
+            <article class="box"></article>
+            <article class="box"></article>
+            
+        </section>
+        </main>
+        <aside>
+            <header></header>
+        </aside>
+    <footer></footer>
+</body>
+
+</html>
